@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Genuine Dickies Tradebuilt Front Seat Cover Pair | Product Page</title>
+  <meta name="description" content="Genuine Dickies Tradebuilt heavy-duty abrasion-resistant front seat cover pairs with dual-layer impact zones. $49.97" />
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --surface:#f6f7f8;
+      --ink:#121212;
+      --muted:#5a5f66;
+      --line:#e3e6ea;
+      --brand:#0071dc;
+      --brand-ink:#ffffff;
+      --success:#137333;
+      --danger:#b3261e;
+      --shadow: 0 8px 30px rgba(0,0,0,.08);
+      --radius: 14px;
+      --radius-sm: 10px;
+      --max: 1180px;
+      --focus: 0 0 0 3px rgba(0,113,220,.25);
+    }
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.35;
+    }
+    a{ color:var(--brand); text-decoration:none; }
+    a:hover{ text-decoration:underline; }
+    img{ max-width:100%; display:block; }
+    button, input, select{ font:inherit; }
+
+    /* Top bar */
+    .topbar{
+      background:var(--brand);
+      color:var(--brand-ink);
+      position:sticky; top:0; z-index:50;
+      box-shadow: 0 2px 0 rgba(0,0,0,.08);
+    }
+    .topbar .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:10px 16px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    /* UPDATED: Brand logo (replaces cart + "Store") */
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      white-space:nowrap;
+      text-decoration:none;
+    }
+    .brand img{
+      height:34px;
+      width:auto;
+      display:block;
+      filter: drop-shadow(0 1px 0 rgba(0,0,0,.08));
+    }
+
+    .search{
+      flex:1;
+      display:flex;
+      gap:8px;
+      align-items:center;
+      background:rgba(255,255,255,.14);
+      border:1px solid rgba(255,255,255,.22);
+      border-radius:999px;
+      padding:8px 10px;
+      min-width:200px;
+    }
+    .search input{
+      flex:1;
+      background:transparent;
+      border:0;
+      outline:0;
+      color:#fff;
+    }
+    .search input::placeholder{ color:rgba(255,255,255,.8); }
+    .chip{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.14);
+      border:1px solid rgba(255,255,255,.22);
+      white-space:nowrap;
+      color:#fff;
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+    }
+
+    /* Breadcrumb */
+    .crumbs{
+      max-width:var(--max);
+      margin:14px auto 0;
+      padding:0 16px;
+      color:var(--muted);
+      font-size:13px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center;
+    }
+    .crumbs span{ opacity:.9; }
+    .crumbs .sep{ opacity:.5; }
+
+    /* Layout */
+    main{
+      max-width:var(--max);
+      margin:10px auto 70px;
+      padding:0 16px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap:22px;
+      align-items:start;
+    }
+    @media (max-width: 980px){
+      .grid{ grid-template-columns:1fr; }
+    }
+
+    /* Gallery */
+    .gallery{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+    }
+    .gallery-top{
+      display:grid;
+      grid-template-columns: 86px 1fr;
+      gap:10px;
+      padding:12px;
+    }
+    @media (max-width: 640px){
+      .gallery-top{ grid-template-columns:1fr; }
+    }
+
+    .thumbs{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      max-height:520px;
+      overflow:auto;
+      padding-right:4px;
+    }
+    @media (max-width: 640px){
+      .thumbs{
+        flex-direction:row;
+        max-height:none;
+        overflow:auto;
+        padding:0 0 6px 0;
+      }
+    }
+    .thumb{
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:12px;
+      overflow:hidden;
+      cursor:pointer;
+      width:78px;
+      height:78px;
+      flex:0 0 auto;
+      display:grid; place-items:center;
+      position:relative;
+    }
+    .thumb img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    .thumb[aria-selected="true"]{
+      outline:none;
+      border-color: rgba(0,113,220,.6);
+      box-shadow: var(--focus);
+    }
+    .mainimg{
+      border:1px solid var(--line);
+      border-radius:14px;
+      overflow:hidden;
+      background:#fff;
+      display:grid; place-items:center;
+      min-height:420px;
+      position:relative;
+    }
+    .mainimg img{
+      width:100%;
+      height:100%;
+      max-height:620px;
+      object-fit:contain;
+      background:#fff;
+    }
+    .zoomhint{
+      position:absolute;
+      right:10px; bottom:10px;
+      font-size:12px;
+      color:var(--muted);
+      background:rgba(255,255,255,.92);
+      border:1px solid var(--line);
+      padding:6px 8px;
+      border-radius:999px;
+    }
+
+    .gallery-strip{
+      border-top:1px solid var(--line);
+      padding:12px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:10px;
+      background:#fff;
+    }
+    .strip-title{
+      display:flex; justify-content:space-between; align-items:center;
+      font-size:13px; color:var(--muted);
+    }
+    .strip{
+      display:flex;
+      gap:10px;
+      overflow:auto;
+      padding-bottom:6px;
+      scroll-snap-type:x mandatory;
+    }
+    .strip-card{
+      scroll-snap-align:start;
+      min-width:240px;
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow: 0 2px 14px rgba(0,0,0,.05);
+    }
+
+    /* UPDATED: square highlight tiles */
+    .strip-card img{
+      width:100%;
+      aspect-ratio: 1 / 1;
+      height:auto;
+      object-fit:cover;
+      background:#fff;
+    }
+
+    .strip-card .cap{
+      padding:10px 12px;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    /* Right side */
+    .panel{
+      position:sticky;
+      top:72px;
+    }
+    @media (max-width: 980px){
+      .panel{ position:static; top:auto; }
+    }
+    .card{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:#fff;
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .card .pad{ padding:16px; }
+    .title{
+      font-size:22px;
+      line-height:1.2;
+      margin:0 0 8px;
+      letter-spacing:-.2px;
+    }
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 12px;
+      align-items:center;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .rating{
+      display:flex; align-items:center; gap:8px;
+    }
+    .stars{
+      letter-spacing:1px;
+      font-size:13px;
+    }
+    .pill{
+      font-size:12px;
+      padding:5px 10px;
+      border-radius:999px;
+      background:var(--surface);
+      border:1px solid var(--line);
+      color:var(--muted);
+      white-space:nowrap;
+    }
+
+    .priceRow{
+      margin-top:14px;
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:12px;
+      padding:14px 16px;
+      background:linear-gradient(180deg, #ffffff, #fbfcff);
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+    }
+    .price{
+      font-weight:900;
+      font-size:28px;
+      letter-spacing:-.4px;
+    }
+    .subprice{
+      font-size:12px;
+      color:var(--muted);
+      margin-top:2px;
+    }
+    .stock{
+      text-align:right;
+      font-size:12px;
+      color:var(--success);
+      font-weight:700;
+    }
+
+    .cta{
+      display:grid;
+      gap:10px;
+      padding:16px;
+    }
+    .qty{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px;
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:10px 12px;
+    }
+    .qty label{ font-size:13px; color:var(--muted); }
+    .qty .controls{
+      display:flex; gap:8px; align-items:center;
+    }
+    .qty button{
+      width:34px; height:34px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background:#fff;
+      cursor:pointer;
+    }
+    .qty button:focus{ outline:none; box-shadow:var(--focus); }
+    .qty input{
+      width:44px;
+      text-align:center;
+      border:1px solid var(--line);
+      border-radius:10px;
+      height:34px;
+      background:#fff;
+      outline:none;
+    }
+    .qty input:focus{ box-shadow:var(--focus); }
+
+    .btn{
+      border:0;
+      border-radius:999px;
+      padding:12px 14px;
+      cursor:pointer;
+      font-weight:800;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      transition: transform .05s ease, filter .15s ease;
+      user-select:none;
+    }
+    .btn:active{ transform: translateY(1px); }
+    .btn-primary{
+      background:var(--brand);
+      color:var(--brand-ink);
+    }
+    .btn-primary:hover{ filter:brightness(.96); }
+    .btn-secondary{
+      background:#111;
+      color:#fff;
+    }
+    .btn-ghost{
+      background:#fff;
+      color:var(--ink);
+      border:1px solid var(--line);
+    }
+    .btn:focus{ outline:none; box-shadow:var(--focus); }
+
+    .smallrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+      color:var(--muted);
+      font-size:12px;
+      padding:0 16px 16px;
+    }
+    .divider{ height:1px; background:var(--line); }
+
+    /* Content sections */
+    .sections{
+      margin-top:22px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:14px;
+    }
+    .section{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:#fff;
+      overflow:hidden;
+      box-shadow: 0 2px 18px rgba(0,0,0,.04);
+    }
+    .section h2{
+      margin:0;
+      padding:14px 16px;
+      font-size:16px;
+      border-bottom:1px solid var(--line);
+      background:var(--surface);
+    }
+    .section .body{ padding:14px 16px; }
+
+    .features{
+      display:grid;
+      gap:12px;
+    }
+    .feature{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:12px 12px;
+      background:#fff;
+    }
+    .feature b{ display:block; margin-bottom:4px; }
+    .feature p{ margin:0; color:var(--muted); }
+
+    .accordion{
+      display:grid;
+      gap:10px;
+    }
+    details{
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#fff;
+      overflow:hidden;
+    }
+    summary{
+      list-style:none;
+      cursor:pointer;
+      padding:12px 12px;
+      font-weight:800;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+    summary::-webkit-details-marker{ display:none; }
+    details[open] summary{
+      border-bottom:1px solid var(--line);
+      background:var(--surface);
+    }
+    .chev{
+      width:10px; height:10px;
+      border-right:2px solid var(--muted);
+      border-bottom:2px solid var(--muted);
+      transform: rotate(45deg);
+      transition: transform .15s ease;
+      margin-right:4px;
+    }
+    details[open] .chev{ transform: rotate(-135deg); }
+    .details-body{
+      padding:12px 12px 14px;
+      color:var(--muted);
+    }
+    .specs{
+      width:100%;
+      border-collapse:collapse;
+      font-size:14px;
+    }
+    .specs th, .specs td{
+      padding:10px 0;
+      border-bottom:1px solid var(--line);
+      text-align:left;
+      vertical-align:top;
+    }
+    .specs th{
+      width:38%;
+      color:var(--muted);
+      font-weight:700;
+      padding-right:14px;
+    }
+
+    /* Footer */
+    footer{
+      border-top:1px solid var(--line);
+      padding:22px 16px 40px;
+      color:var(--muted);
+      background:var(--surface);
+    }
+    footer .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      font-size:12px;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    /* Mobile bottom bar */
+    .bottombar{
+      display:none;
+      position:fixed;
+      left:0; right:0; bottom:0;
+      z-index:60;
+      background:#fff;
+      border-top:1px solid var(--line);
+      padding:10px 12px;
+      box-shadow: 0 -8px 30px rgba(0,0,0,.08);
+    }
+    .bottombar .row{
+      max-width:var(--max);
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      justify-content:space-between;
+    }
+    .bottombar .p{
+      display:flex;
+      flex-direction:column;
+      gap:2px;
+      min-width:0;
+    }
+    .bottombar .p .t{
+      font-size:12px;
+      color:var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width:44vw;
+    }
+    .bottombar .p .v{
+      font-weight:900;
+      font-size:18px;
+      letter-spacing:-.2px;
+    }
+    .bottombar .btn{
+      padding:12px 14px;
+      white-space:nowrap;
+    }
+    @media (max-width: 980px){
+      .bottombar{ display:block; }
+      main{ margin-bottom:110px; }
+    }
+
+    /* Modal (image zoom) */
+    .modal{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.65);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      z-index:90;
+      padding:18px;
+    }
+    .modal[aria-hidden="false"]{ display:flex; }
+    .modal-content{
+      width:min(980px, 100%);
+      background:#fff;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,.35);
+      border:1px solid rgba(255,255,255,.18);
+    }
+    .modal-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:12px 14px;
+      border-bottom:1px solid var(--line);
+      background:var(--surface);
+    }
+    .modal-head .mh-title{
+      font-weight:900;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .iconbtn{
+      width:38px; height:38px;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background:#fff;
+      cursor:pointer;
+      display:grid; place-items:center;
+    }
+    .iconbtn:focus{ outline:none; box-shadow:var(--focus); }
+    .modal-body{
+      padding:10px;
+      background:#fff;
+      display:grid;
+      place-items:center;
+    }
+    .modal-body img{
+      width:100%;
+      height:calc(80vh - 90px);
+      object-fit:contain;
+      background:#fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar" role="banner">
+    <div class="wrap">
+
+      <!-- UPDATED: logo -->
+      <a class="brand" href="#" aria-label="Home">
+        <img src="assets/spark-icon.svg" alt="Brand logo" />
+      </a>
+
+      <div class="search" role="search">
+        <span aria-hidden="true">🔎</span>
+        <input aria-label="Search" placeholder="Search products, brands, and categories" />
+        <span class="chip" aria-hidden="true">Pickup · Delivery</span>
+      </div>
+
+      <a class="chip" href="#" aria-label="Account">Account</a>
+      <a class="chip" href="#" aria-label="Cart">Cart</a>
+    </div>
+  </header>
+
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="#">Automotive</a><span class="sep">›</span>
+    <a href="#">Interior Accessories</a><span class="sep">›</span>
+    <a href="#">Seat Covers</a><span class="sep">›</span>
+    <a href="#">Front Seat Covers</a><span class="sep">›</span>
+    <span>Front Pair</span>
+  </nav>
+
+  <main>
+    <div class="grid">
+      <!-- LEFT: gallery -->
+      <section class="gallery" aria-label="Product images">
+        <div class="gallery-top">
+          <div class="thumbs" id="thumbs" aria-label="Image thumbnails">
+            <!-- assets/ paths -->
+            <button class="thumb" type="button" aria-selected="true" data-src="assets/carpenter-01.jpg">
+              <img src="assets/carpenter-01.jpg" alt="Front seat cover pair on white background" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-02.jpg">
+              <img src="assets/carpenter-02.jpg" alt="Tradebuilt lifestyle image in vehicle interior" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-03.jpg">
+              <img src="assets/carpenter-03.jpg" alt="Built for full size trucks and SUVs graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-04.jpg">
+              <img src="assets/carpenter-04.jpg" alt="Durable water-resistant material graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-05.jpg">
+              <img src="assets/carpenter-05.jpg" alt="Reinforced stitching close-up graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-06.jpg">
+              <img src="assets/carpenter-06.jpg" alt="Dual-layer impact zones graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-07.jpg">
+              <img src="assets/carpenter-07.jpg" alt="Abrasion-resistant surface graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-08.jpg">
+              <img src="assets/carpenter-08.jpg" alt="Easy care material wipe-clean graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-09.jpg">
+              <img src="assets/carpenter-09.jpg" alt="Secure fit strap and buckle system graphic" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-10.jpg">
+              <img src="assets/carpenter-10.jpg" alt="Built for the job branding image" />
+            </button>
+            <button class="thumb" type="button" aria-selected="false" data-src="assets/carpenter-11.jpg">
+              <img src="assets/carpenter-11.jpg" alt="Heavy-duty canvas texture graphic" />
+            </button>
+          </div>
+
+          <div class="mainimg" id="mainimg" role="button" tabindex="0" aria-label="Open image zoom">
+            <img id="mainImageEl" src="assets/carpenter-01.jpg" alt="Front seat cover pair on white background" />
+            <div class="zoomhint">Click to zoom</div>
+          </div>
+        </div>
+
+        <div class="gallery-strip" aria-label="Supporting images">
+          <div class="strip-title">
+            <span>Highlights</span>
+            <span>Swipe →</span>
+          </div>
+          <div class="strip" id="strip">
+            <div class="strip-card">
+              <img src="assets/carpenter-06.jpg" alt="Dual-layer impact zones highlight" />
+              <div class="cap"><b>Dual-layer impact zones</b><br/>Extra strength in high-contact areas.</div>
+            </div>
+            <div class="strip-card">
+              <img src="assets/carpenter-07.jpg" alt="Abrasion-resistant highlight" />
+              <div class="cap"><b>Abrasion-resistant</b><br/>Built for tool belts and rough clothing.</div>
+            </div>
+            <div class="strip-card">
+              <img src="assets/carpenter-04.jpg" alt="Water-resistant highlight" />
+              <div class="cap"><b>Water-resistant</b><br/>Spills bead up and wipe clean.</div>
+            </div>
+            <div class="strip-card">
+              <img src="assets/carpenter-09.jpg" alt="Secure strap and buckle highlight" />
+              <div class="cap"><b>Secure fit system</b><br/>Straps + buckles stay put on rough roads.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT: purchase/info -->
+      <aside class="panel" aria-label="Purchase panel">
+        <div class="card">
+          <div class="pad">
+            <h1 class="title">Genuine Dickies Tradebuilt heavy-duty abrasion-resistant front seat cover pairs with dual-layer impact zones</h1>
+
+            <div class="meta">
+              <div class="rating" aria-label="Rating">
+                <span class="stars" aria-hidden="true">★★★★★</span>
+                <span><b>4.7</b> (128)</span>
+              </div>
+              <span class="pill">2-Piece Front Set</span>
+              <span class="pill">Airbag Compatible</span>
+              <span class="pill">Work Truck / SUV Fit</span>
+            </div>
+          </div>
+
+          <div class="priceRow" aria-label="Price and availability">
+            <div>
+              <div class="price">$49.97</div>
+              <div class="subprice">Free pickup · Shipping available</div>
+            </div>
+            <div class="stock">In stock</div>
+          </div>
+
+          <!-- Size option selector intentionally removed (front pairs only) -->
+
+          <div class="cta">
+            <div class="qty" aria-label="Quantity selector">
+              <label for="qty">Qty</label>
+              <div class="controls">
+                <button type="button" id="dec" aria-label="Decrease quantity">−</button>
+                <input id="qty" inputmode="numeric" value="1" aria-label="Quantity" />
+                <button type="button" id="inc" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" type="button" id="addToCart">
+              Add to cart <span aria-hidden="true">→</span>
+            </button>
+            <button class="btn btn-secondary" type="button" id="buyNow">
+              Buy now
+            </button>
+            <button class="btn btn-ghost" type="button">
+              Add to list
+            </button>
+          </div>
+
+          <div class="smallrow">
+            <span>Sold & shipped by <b>Brand Partner</b></span>
+            <span>30-day returns</span>
+          </div>
+
+          <div class="divider" role="separator" aria-hidden="true"></div>
+
+          <div class="pad" style="padding-top:14px;">
+            <div class="accordion" aria-label="Key purchase info">
+              <details open>
+                <summary>
+                  Key features
+                  <span class="chev" aria-hidden="true"></span>
+                </summary>
+                <div class="details-body">
+                  <ul style="margin:0; padding-left:18px; display:grid; gap:8px;">
+                    <li><b>Heavy-Duty 600D Oxford Polyester</b> – Rugged woven fabric built to handle daily jobsite wear, tool belts, and rough clothing.</li>
+                    <li><b>Dual-Layer Impact Zones</b> – Reinforced side panels with layered construction for added durability in high-contact areas.</li>
+                    <li><b>Abrasion-Resistant Tuff Mesh Panels</b> – Designed to resist scuffs, friction, and repeated entry/exit wear.</li>
+                    <li><b>Water-Resistant Surface</b> – Spills bead up and wipe clean — protects factory upholstery from moisture and grime.</li>
+                    <li><b>Secure Strap & Buckle System</b> – Heavy-duty adjustable straps with quick-release buckles keep the cover firmly in place.</li>
+                  </ul>
+                </div>
+              </details>
+
+              <details>
+                <summary>
+                  Compatibility
+                  <span class="chev" aria-hidden="true"></span>
+                </summary>
+                <div class="details-body">
+                  Tailored fit for trucks & SUVs. Airbag compatible construction supports side-airbag deployment.
+                </div>
+              </details>
+
+              <details>
+                <summary>
+                  Care
+                  <span class="chev" aria-hidden="true"></span>
+                </summary>
+                <div class="details-body">
+                  Low-maintenance care: dirt and dust sit on the surface for quick wipe-down cleaning.
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- BELOW: product details -->
+    <div class="sections">
+      <section class="section" aria-label="About this item">
+        <h2>About this item</h2>
+        <div class="body">
+          <div class="features">
+            <div class="feature">
+              <b>Heavy-Duty 600D Oxford Polyester</b>
+              <p>Rugged woven fabric built to handle daily jobsite wear, tool belts, and rough clothing.</p>
+            </div>
+            <div class="feature">
+              <b>Dual-Layer Impact Zones</b>
+              <p>Reinforced side panels with layered construction for added durability in high-contact areas.</p>
+            </div>
+            <div class="feature">
+              <b>Abrasion-Resistant Tuff Mesh Panels</b>
+              <p>Designed to resist scuffs, friction, and repeated entry/exit wear.</p>
+            </div>
+            <div class="feature">
+              <b>Water-Resistant Surface</b>
+              <p>Spills bead up and wipe clean — protects factory upholstery from moisture and grime.</p>
+            </div>
+            <div class="feature">
+              <b>Secure Strap &amp; Buckle System</b>
+              <p>Heavy-duty adjustable straps with quick-release buckles keep the cover firmly in place.</p>
+            </div>
+            <div class="feature">
+              <b>Full Seat Coverage Design</b>
+              <p>Protects seat base, bolsters, and backrest for complete front-seat protection.</p>
+            </div>
+            <div class="feature">
+              <b>Airbag Compatible Construction</b>
+              <p>Engineered with side airbag deployment compatibility.</p>
+            </div>
+            <div class="feature">
+              <b>Low-Maintenance Care</b>
+              <p>Dirt and dust sit on the surface for quick wipe-down cleaning.</p>
+            </div>
+            <div class="feature">
+              <b>Tailored Fit for Trucks &amp; SUVs</b>
+              <p>Designed specifically for full-size work vehicles.</p>
+            </div>
+            <div class="feature">
+              <b>2-Piece Front Set</b>
+              <p>Includes driver and passenger seat covers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Specifications">
+        <h2>Specifications</h2>
+        <div class="body">
+          <table class="specs" aria-label="Specification table">
+            <tbody>
+              <tr>
+                <th>Set includes</th>
+                <td>2 front seat covers (driver + passenger)</td>
+              </tr>
+              <tr>
+                <th>Material</th>
+                <td>Heavy-duty 600D Oxford Polyester + abrasion-resistant mesh panels</td>
+              </tr>
+              <tr>
+                <th>Water resistance</th>
+                <td>Water-resistant surface; wipe-clean spills</td>
+              </tr>
+              <tr>
+                <th>Fit type</th>
+                <td>Front seats; tailored for trucks &amp; SUVs</td>
+              </tr>
+              <tr>
+                <th>Installation</th>
+                <td>Secure strap &amp; buckle system (adjustable)</td>
+              </tr>
+              <tr>
+                <th>Airbag compatibility</th>
+                <td>Side airbag compatible construction</td>
+              </tr>
+              <tr>
+                <th>Care</th>
+                <td>Low-maintenance wipe-down cleaning</td>
+              </tr>
+              <tr>
+                <th>Price</th>
+                <td>$49.97</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Reviews">
+        <h2>Customer reviews</h2>
+        <div class="body">
+          <div style="display:flex; flex-wrap:wrap; gap:14px; align-items:flex-start;">
+            <div style="min-width:240px;">
+              <div style="font-size:36px; font-weight:900; letter-spacing:-.6px;">4.7</div>
+              <div style="color:var(--muted); margin-top:-4px;">Average rating</div>
+              <div class="stars" aria-hidden="true" style="margin-top:8px; font-size:14px;">★★★★★</div>
+              <div style="color:var(--muted); font-size:12px; margin-top:6px;">Based on 128 ratings</div>
+            </div>
+            <div style="flex:1; min-width:260px; color:var(--muted);">
+              <p style="margin-top:0;">
+                Review content is a placeholder in this template. Provide real review snippets/ratings if you want these populated.
+              </p>
+              <button class="btn btn-ghost" type="button">Write a review</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>Template product page (store-style). Replace header branding as needed.</div>
+      <div>© Your Company</div>
+    </div>
+  </footer>
+
+  <!-- Mobile purchase bar -->
+  <div class="bottombar" role="region" aria-label="Quick purchase bar">
+    <div class="row">
+      <div class="p">
+        <div class="t">Genuine Dickies Tradebuilt Front Seat Cover Pair</div>
+        <div class="v">$49.97</div>
+      </div>
+      <button class="btn btn-primary" type="button" id="addToCartMobile">Add to cart</button>
+    </div>
+  </div>
+
+  <!-- Image zoom modal -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Image zoom">
+    <div class="modal-content">
+      <div class="modal-head">
+        <div class="mh-title">Image zoom</div>
+        <button class="iconbtn" id="closeModal" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" src="assets/carpenter-01.jpg" alt="Zoomed product image" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Gallery switching
+    const thumbs = Array.from(document.querySelectorAll('.thumb'));
+    const mainImageEl = document.getElementById('mainImageEl');
+    const mainimg = document.getElementById('mainimg');
+
+    function selectThumb(btn){
+      thumbs.forEach(t => t.setAttribute('aria-selected', 'false'));
+      btn.setAttribute('aria-selected', 'true');
+      const src = btn.getAttribute('data-src');
+      const img = btn.querySelector('img');
+      mainImageEl.src = src;
+      mainImageEl.alt = img ? img.alt : 'Product image';
+    }
+
+    thumbs.forEach(btn => {
+      btn.addEventListener('click', () => selectThumb(btn));
+    });
+
+    // Quantity controls
+    const qty = document.getElementById('qty');
+    const dec = document.getElementById('dec');
+    const inc = document.getElementById('inc');
+
+    function clampQty(v){
+      const n = Number(v);
+      if (!Number.isFinite(n)) return 1;
+      return Math.min(99, Math.max(1, Math.round(n)));
+    }
+    function setQty(v){ qty.value = clampQty(v); }
+
+    dec.addEventListener('click', () => setQty(Number(qty.value) - 1));
+    inc.addEventListener('click', () => setQty(Number(qty.value) + 1));
+    qty.addEventListener('blur', () => setQty(qty.value));
+    qty.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') qty.blur();
+    });
+
+    // Add to cart / Buy now (template actions)
+    function toast(message){
+      const el = document.createElement('div');
+      el.textContent = message;
+      el.style.position = 'fixed';
+      el.style.left = '50%';
+      el.style.bottom = '88px';
+      el.style.transform = 'translateX(-50%)';
+      el.style.background = '#111';
+      el.style.color = '#fff';
+      el.style.padding = '10px 12px';
+      el.style.borderRadius = '999px';
+      el.style.fontSize = '13px';
+      el.style.boxShadow = '0 12px 30px rgba(0,0,0,.25)';
+      el.style.zIndex = '120';
+      document.body.appendChild(el);
+      setTimeout(() => el.remove(), 1700);
+    }
+
+    document.getElementById('addToCart').addEventListener('click', () => {
+      toast(`Added to cart · Qty ${clampQty(qty.value)}`);
+    });
+    document.getElementById('addToCartMobile').addEventListener('click', () => {
+      toast(`Added to cart · Qty ${clampQty(qty.value)}`);
+    });
+    document.getElementById('buyNow').addEventListener('click', () => {
+      toast('Checkout (placeholder action)');
+    });
+
+    // Image zoom modal
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modalImg');
+    const closeModal = document.getElementById('closeModal');
+
+    function openModal(){
+      modalImg.src = mainImageEl.src;
+      modalImg.alt = mainImageEl.alt || 'Zoomed product image';
+      modal.setAttribute('aria-hidden', 'false');
+      closeModal.focus();
+    }
+    function hideModal(){
+      modal.setAttribute('aria-hidden', 'true');
+      mainimg.focus();
+    }
+
+    mainimg.addEventListener('click', openModal);
+    mainimg.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') openModal();
+    });
+    closeModal.addEventListener('click', hideModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) hideModal();
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') hideModal();
+    });
+  </script>
+</body>
+</html>
